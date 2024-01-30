@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300;400;500&display=swap";
+/* @import "https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300;400;500&display=swap"; */
 
 :root {
     --blue: #0000FF;
@@ -71,20 +71,19 @@ h2 {
     font-size: 1.8rem;
 }
 
-p {
-    font-size: 1.4rem;
+p,
+li {
     font-weight: 300;
     margin-left: 16%;
     margin-right: 16%;
 }
 
-b {
-    font-weight: 500;
+p, li {
+    font-size: 1.4rem;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
+b {
+    font-weight: 500;
 }
 
 .top-header {
@@ -128,7 +127,20 @@ ul {
     background-color: var(--light-grey);
 }
 
+.experience {
+    padding: 0;
+    list-style: none;
+    display: inline;
+
+    & li {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
 .subject-list {
+    margin: 0;
+    padding: 0;
     list-style: none;
     display: flex;
     flex-direction: row;
