@@ -1,3 +1,3 @@
 # Tutoring info site
 
-A website that I made for my aunt. Made using HTML/CSS and some JavaScript.
+A website that I made for my aunt to advertise her tutoring services. Made using HTML/CSS and some JavaScript.
